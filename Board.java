@@ -1,14 +1,14 @@
 import java.awt.*; 
 import java.awt.event.*; 
 import javax.swing.*; 
-public class Board extends JPanel{
-    int start = 2;
+public class Board extends JPanel
+{
     //board
     private Coord[][] coords = new Coord[16][30];
     //tiles
     ImageIcon tileI = new ImageIcon("tile.png");
     private Image tile = tileI.getImage();  
-    //tiles
+    //opened
     ImageIcon openedI = new ImageIcon("opened.png");
     private Image opened = openedI.getImage();
     //bombs
